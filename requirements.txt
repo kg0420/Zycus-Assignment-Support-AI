@@ -3,6 +3,6 @@ uvicorn
 pydantic
 python-dotenv
 rank-bm25
-openai
+
 pytest
 google-genai
