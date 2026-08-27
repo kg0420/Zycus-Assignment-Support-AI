@@ -1,0 +1,86 @@
+[
+  {
+    "name": "critical_production_outage",
+    "ticket": {
+      "subject": "Production SSO outage",
+      "body": "Our production SSO is completely unavailable. All employees are unable to log in and business operations are blocked.",
+      "product": "SecureVault",
+      "product_area": "SSO",
+      "plan_tier": "Enterprise"
+    },
+    "expected": {
+      "urgency": ["P1"],
+      "category": ["Integration"]
+    }
+  },
+  {
+    "name": "performance_issue",
+    "ticket": {
+      "subject": "Dashboard extremely slow",
+      "body": "The dashboard is taking more than 60 seconds to load. This is affecting our team but we can still use the rest of the product.",
+      "product": "WorkflowEngine",
+      "product_area": "Triggers",
+      "plan_tier": "Business"
+    },
+    "expected": {
+      "urgency": ["P2", "P3"],
+      "category": ["Performance"]
+    }
+  },
+  {
+    "name": "how_to_question",
+    "ticket": {
+      "subject": "How do I configure alerts?",
+      "body": "Could you explain how to configure alerts for our AnalyticsHub dashboard?",
+      "product": "AnalyticsHub",
+      "product_area": "Alerts",
+      "plan_tier": "Professional"
+    },
+    "expected": {
+      "urgency": ["P4"],
+      "category": ["How-To"]
+    }
+  },
+  {
+    "name": "billing_question",
+    "ticket": {
+      "subject": "Question about invoice",
+      "body": "We were charged for more seats than expected. Could you explain the billing calculation and issue a credit if appropriate?",
+      "product": "CloudSync",
+      "product_area": "Permissions",
+      "plan_tier": "Professional"
+    },
+    "expected": {
+      "urgency": ["P4"],
+      "category": ["Billing"]
+    }
+  },
+  {
+    "name": "ambiguous_authentication_issue",
+    "ticket": {
+      "subject": "SSO authentication failure",
+      "body": "Existing users can access the system but new users cannot authenticate. We receive an authentication error during login.",
+      "product": "SecureVault",
+      "product_area": "SSO",
+      "plan_tier": "Business"
+    },
+    "expected": {
+      "urgency": ["P2", "P3"],
+      "category": ["Integration"]
+    }
+  },
+  {
+    "name": "adversarial_low_impact_authentication",
+    "ticket": {
+        "subject": "Question about SSO",
+        "body": "Everything is working normally for existing users. I just want to know how I can configure SSO for a new test environment.",
+        "product": "SecureVault",
+        "product_area": "SSO",
+        "plan_tier": "Business"
+    },
+    "expected": {
+        "urgency": ["P4"],
+        "category": ["How-To"]
+    }
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "account_id": "ACC-3336",
+  "summary": {
+    "executive_summary": "Omni Consumer Products is an At Risk account with an Inactive usage trend, facing significant challenges ahead of its renewal in 80 days. Account escalation notes indicate a decision maker is considering a competing vendor evaluation and mention 3 consecutive P1 tickets in the last 30 days, despite system metrics showing zero P1s. The account currently has 7 open tickets, signaling ongoing support issues. These factors combined point to a critical need for immediate intervention to mitigate churn risk.",
+    "open_risks": [
+      {
+        "risk_type": "churn",
+        "severity": "High",
+        "description": "A key decision maker is considering evaluating a competing vendor, indicating a direct threat to the renewal.",
+        "evidence_source": "account",
+        "evidence": "Decision maker considering competing vendor evaluation",
+        "ticket_id": null,
+        "quote": null
+      },
+      {
+        "risk_type": "escalation",
+        "severity": "High",
+        "description": "The account has experienced multiple critical issues, as indicated by the escalation notes.",
+        "evidence_source": "account",
+        "evidence": "3 consecutive P1 tickets in the last 30 days",
+        "ticket_id": null,
+        "quote": null
+      },
+      {
+        "risk_type": "unresolved support problems",
+        "severity": "Medium",
+        "description": "There are 7 open support tickets, indicating ongoing issues that require resolution and may be impacting customer satisfaction.",
+        "evidence_source": "account",
+        "evidence": "open_tickets: 7",
+        "ticket_id": null,
+        "quote": null
+      },
+      {
+        "risk_type": "declining usage",
+        "severity": "Medium",
+        "description": "The account's usage trend is currently 'Inactive', which could lead to reduced value perception and impact renewal.",
+        "evidence_source": "account",
+        "evidence": "usage_trend: Inactive",
+        "ticket_id": null,
+        "quote": null
+      },
+      {
+        "risk_type": "renewal concern",
+        "severity": "High",
+        "description": "The account is 'At Risk' with significant churn and escalation signals, and its renewal is approaching in 80 days.",
+        "evidence_source": "account",
+        "evidence": "health_status: At Risk, renewal_date: 2026-08-19, days_until_renewal: 80",
+        "ticket_id": null,
+        "quote": null
+      },
+      {
+        "risk_type": "data quality",
+        "severity": "Medium",
+        "description": "There is a discrepancy between the account escalation notes and system metrics regarding P1 tickets, which could hinder accurate health assessment.",
+        "evidence_source": "account",
+        "evidence": "Account escalation notes mention 3 consecutive P1 tickets in the last 30 days, but p1_tickets_last_30d is 0.",
+        "ticket_id": null,
+        "quote": null
+      }
+    ],
+    "tam_talking_points": [
+      "Address the feedback regarding a competing vendor evaluation with Quinn Wilson, VP Technology, to understand specific concerns and demonstrate our value proposition.",
+      "Discuss the recent P1 ticket history mentioned in the escalation notes to understand root causes, impact, and confirm resolution status, despite the system's P1 count.",
+      "Review the current 'Inactive' usage trend for WorkflowEngine and AnalyticsHub, and identify opportunities to drive adoption and demonstrate value.",
+      "Provide an update on the 7 open support tickets and outline a clear path to resolution for each.",
+      "Discuss the upcoming renewal in August and ensure all critical issues are addressed to secure the partnership.",
+      "Clarify the discrepancy between the reported P1 tickets in escalation notes and the system's P1 count to ensure accurate health assessment and internal alignment."
+    ]
+  }
+}

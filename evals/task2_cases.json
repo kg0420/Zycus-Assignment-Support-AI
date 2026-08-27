@@ -1,0 +1,63 @@
+[
+  {
+    "name": "at_risk_account",
+    "account_id": "ACC-3336",
+    "expected": {
+      "health_status": "At Risk",
+      "must_identify_churn_risk": true,
+      "must_identify_escalation_signal": true
+    }
+  },
+  {
+    "name": "account_3033",
+    "account_id": "ACC-3033",
+    "expected": {
+      "must_not_crash": true
+    }
+  },
+  {
+    "name": "account_7893",
+    "account_id": "ACC-7893",
+    "expected": {
+      "must_not_crash": true
+    }
+  },
+  {
+    "name": "account_4654",
+    "account_id": "ACC-4654",
+    "expected": {
+      "must_not_crash": true,
+      "must_process_90_day_tickets": true
+    }
+  },
+  {
+    "name": "account_4610",
+    "account_id": "ACC-4610",
+    "expected": {
+      "must_not_crash": true
+    }
+  },
+  {
+    "name": "missing_account",
+    "account_id": "ACC-DOES-NOT-EXIST",
+    "expected": {
+      "must_handle_error": true
+    }
+  },
+  {
+    "name": "adversarial_missing_account",
+    "account_id": "ACC-DOES-NOT-EXIST",
+    "type": "data_only",
+    "expected": {
+        "must_handle_error": true
+    }
+  },
+  {
+    "name": "adversarial_inconsistent_p1_data",
+    "account_id": "ACC-3336",
+    "type": "llm",
+    "expected": {
+        "must_identify_account_escalation_notes": true
+    }
+}
+]

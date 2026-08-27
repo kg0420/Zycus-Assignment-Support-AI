@@ -1,0 +1,21 @@
+{
+  "executive_summary": "Solaris Data is an Enterprise customer onboarded in December 2025, with a renewal scheduled for December 2026. The account currently shows a 'New' health status with an increasing usage trend and a strong NPS score of 10. While there are 5 open tickets, there have been no P1 issues in the last 30 days. A key area for discussion is the significant difference between licensed and active seats, indicating potential underutilization.",
+  "open_risks": [
+    {
+      "risk_type": "Underutilization / Adoption",
+      "severity": "Medium",
+      "description": "Solaris Data has significantly fewer active seats (757) compared to licensed seats (1314), indicating potential underutilization of the platform's full capacity.",
+      "evidence_source": "account",
+      "evidence": "seats_licensed: 1314, seats_active: 757",
+      "ticket_id": null,
+      "quote": null
+    }
+  ],
+  "tam_talking_points": [
+    "Acknowledge the positive NPS score of 10 and the increasing usage trend, reinforcing the value Solaris Data is receiving.",
+    "Discuss current platform utilization, specifically addressing the difference between licensed (1314) and active (757) seats, and explore opportunities to drive broader adoption across the organization.",
+    "Review the status of the 5 open tickets to ensure timely resolution and customer satisfaction, and confirm no critical issues are pending.",
+    "As a new customer, ensure their onboarding journey is progressing well across all products (AnalyticsHub, SecureVault, DataBridge Pro, CloudSync) and identify any further support or training needs.",
+    "Discuss the value derived from their current usage and the HubSpot integration, exploring potential for deeper integration or additional product adoption."
+  ]
+}

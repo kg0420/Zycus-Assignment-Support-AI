@@ -1,0 +1,39 @@
+{
+  "executive_summary": "Polaris Group, a Starter tier customer, currently maintains a 'Healthy' account status with an increasing usage trend for DataBridge Pro. While there are 11 open tickets, none are P1 or from the last 90 days, suggesting older, non-critical issues. The account's renewal is approaching in 30 days, and the primary contact's last login was 57 days ago. Overall, the account is stable but requires proactive engagement for renewal and support resolution.",
+  "open_risks": [
+    {
+      "risk_type": "renewal concern",
+      "severity": "High",
+      "description": "The account's renewal date is June 30, 2026, meaning there are only 30 days remaining to discuss and finalize the renewal.",
+      "evidence_source": "account",
+      "evidence": "renewal_date: 2026-06-30, days_until_renewal: 30",
+      "ticket_id": null,
+      "quote": null
+    },
+    {
+      "risk_type": "unresolved support problems",
+      "severity": "Medium",
+      "description": "There are 11 open tickets for Polaris Group, indicating ongoing support issues that require attention, even if they are not recent or P1.",
+      "evidence_source": "account",
+      "evidence": "open_tickets: 11",
+      "ticket_id": null,
+      "quote": null
+    },
+    {
+      "risk_type": "primary contact engagement",
+      "severity": "Medium",
+      "description": "The primary contact, Taylor Smith, Director of Infrastructure, has not logged in for 57 days, which could signal disengagement or a potential shift in key stakeholders.",
+      "evidence_source": "account",
+      "evidence": "primary_contact.name: Taylor Smith, last_login_days_ago: 57",
+      "ticket_id": null,
+      "quote": null
+    }
+  ],
+  "tam_talking_points": [
+    "Discuss the upcoming renewal on June 30, 2026, to understand Polaris Group's future needs and ensure a smooth renewal process.",
+    "Review the status of the 11 open tickets to ensure they are being actively addressed and to understand their impact on the customer's operations.",
+    "Inquire about Taylor Smith's recent activity and overall engagement with DataBridge Pro, and confirm the most active stakeholders within the account.",
+    "Explore the current utilization of DataBridge Pro (925 active seats vs. 1049 licensed) to identify any opportunities for optimization or expansion.",
+    "Acknowledge the positive trend of increasing usage and discuss any plans Polaris Group has for further leveraging DataBridge Pro within their organization."
+  ]
+}
